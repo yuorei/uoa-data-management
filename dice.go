@@ -20,4 +20,9 @@ func dice() int {
 func main() {
 	result := dice()
 	fmt.Printf("Total value: %d\n", result)
+	if result > 7 {
+		fmt.Println("You won")
+	} else {
+		fmt.Println("You lost")
+	}
 }
