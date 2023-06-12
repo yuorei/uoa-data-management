@@ -18,6 +18,10 @@ func dice() int {
 }
 
 func main() {
+	fmt.Println("What is your name? ")
+	var name string
+	fmt.Scan(&name)
+	fmt.Printf("Hello, %s!\n", name)
 	result := dice()
 	fmt.Printf("Total value: %d\n", result)
 }
