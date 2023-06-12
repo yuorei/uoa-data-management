@@ -25,8 +25,8 @@ func main() {
 	result := dice()
 	fmt.Printf("Total value: %d\n", result)
 	if result > 7 {
-		fmt.Println("You won")
+		fmt.Printf("%s won\n", name)
 	} else {
-		fmt.Println("You lost")
+		fmt.Printf("%s lost\n", name)
 	}
 }
